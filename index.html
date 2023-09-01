@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Clicker Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Simple Clicker Game</h1>
+  <div id="fakeYoutubeVideo" class="youtube-container">
+    <div class="video-player">
+      <!-- Placeholder for the video -->
+      <div id="character">
+        <img id="characterImage" src="hqdefault.webp" alt="character" />
+      </div>
+    </div>
+    <div class="video-info">
+      <h2>Awesome Eeiris</h2>
+      <!-- <button id="videoLikeButton">Like</button> -->
+      <!-- <button id="videoDislikeButton">Dislike</button> -->
+      <!-- <div id="videoLikes">0</div> -->
+      <!-- <div id="videoDislikes">0</div> -->
+    </div>
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <p>Sidebar</p>
+      <!-- Add your sidebar content here -->
+      <div class="sidebar">
+        <p class="sidebar-title">Simple Clicker</p>
+        <ul class="sidebar-menu">
+          <li><a href="#" class="sidebar-item active">Home</a></li>
+          <li><a href="#" class="sidebar-item">Trending</a></li>
+          <li><a href="#" class="sidebar-item">Subscriptions</a></li>
+          <li><a href="#" class="sidebar-item">Library</a></li>
+          <li><a href="#" class="sidebar-item">History</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="main-content">
+        <div class="gameArea">
+            <button id="likeButton" class="like-button">
+              <span class="like-icon">👍</span> Like
+            </button>
+            <p>Clicks: <span id="clickCount">0</span></p>
+          </div>
+          
+      <div class="divider"></div>
+      <div class="upgradesArea">
+        <h2>Upgrade Shop</h2>
+        <div id="upgradesShop">
+          <!-- Upgrades will be populated here -->
+        </div>
+      </div>
+    </div>
+    <div class="side-content">
+        <h2>Upcoming Upgrades</h2>
+        <ul id="upcomingUpgrades">
+          <li>Double Clicker: 20 clicks</li>
+          <li>Auto Miner: 50 clicks</li>
+          <li>Mega Boost: 100 clicks</li>
+        </ul>
+      
+        <h2>New Functionalities</h2>
+        <ul id="newFunctionalities">
+          <li>Leaderboard</li>
+          <li>Achievements</li>
+          <li>Player Profiles</li>
+        </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
